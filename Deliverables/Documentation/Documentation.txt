@@ -1,0 +1,40 @@
+Katie Roy
+Section 2
+
+Description of World:
+My world is a desert scene, complete with a logoon and a camel to drink out of it. Its full of sand, desert fauna 
+and flora, and even a bit of quicksand.
+
+World Exploration:
+The world includes a set of 8 cameras for the user to use to view the scene. 
+The first camera looks down on the entire scene.
+The second camera follows the average position of the flock of scorpions.
+The third camera follows the position of the desert shrew.
+The fourth camera follows the position of the camel.
+The fifth, sixth, seventh, and eighth cameras show the world from its 4 corners.
+
+Flocking:
+The scorpions in the scene are my flockers. They seek the desert shrew and are trying to eat it.
+
+Path Following:
+The camel is my path follower. It follows the path through the desert until he reaches the lagoon, 
+circle's the lagoon to enjoy the cooler air of the area, and then continues on his journey.
+
+Flow Field Following:
+The desert shrew is my flow field follower. He searches the desert for shade and bugs, and also flees the 
+scorpions that are trying to eat him.
+
+Area of Resistance:
+My area of resistance is the sink hole in the middle of the scene, denoted by the different color sand, and the 
+debug lines that make a square in the center of the scene. The shrew and the scorpions are slowed down when they 
+enter this area.
+
+Resources:
+I used The Nature of Code by Daniel Shiffman to guide me in coding all of my algorithms.
+
+I used free models from the unity store for my environment and I used free models from Google Poly for my 
+creatures.
+
+Bugs:
+The shrew dosn't seem to be avoiding the pond or surrounding rocks for some reason that I can't figure out.
+The shrew and the scorpions do not avoid the mountains.
